@@ -11,7 +11,7 @@ on:
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
         required: true
-        default: 'android-4.9'
+        default: 'android-4.9-stable'
          
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
