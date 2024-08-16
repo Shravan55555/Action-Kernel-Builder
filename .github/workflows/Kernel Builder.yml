@@ -6,22 +6,22 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/yuzumi86/kernel_realme_even'
+        default: 'https://github.com/Shravan55555/android_kernel_xiaomi_msm8953_49.git'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
         required: true
-        default: 'OSS-RUI2'
+        default: 'android-4.9'
          
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
         required: true
-        default: 'even_defconfig'
+        default: 'sdm670-perf_defconfig'
 
       KBUILD_USER:
         description: 'Enter the custom username build available in your kernel'
         required: true
-        default: 'cumaRull'
+        default: 'Shravan'
 
       KBUILD_HOST:
         description: 'Enter the user custom host name available in your kernel'
@@ -31,7 +31,7 @@ on:
       CLANG_URL:
         description: 'Clang Url'
         required: true
-        default: 'https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240227-release/Clang-19.0.0git-20240227.tar.gz'
+        default: 'https://github.com/shravansayz/clang-proton.git'
    #   AARCH64_URL:
   #      description: 'Arrch64-GCC'
   #      required: true
@@ -42,15 +42,15 @@ on:
   #      default: 'https://github.com/ZyCromerZ/arm-zyc-linux-gnueabi -b 13'
       WITH_KERNEL_SU:
         description: 'With kernelsu?, Dont activate it if the kernel doesnt support it '
-        required: true
+        required: false
         default: 'false'
       ZIP_NAME:
         description: 'Name for the zip file'
-        required: true
+        required: false
         default: 'TridentNothDeath-Even' 
       ANYKERNEL_URL:
         description: 'YOUR ANYKERNEL LINK'
-        required: true
+        required: false
         default: 'https://github.com/cumaRull/AnyKernel3.git -b master'
       
                   
