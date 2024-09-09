@@ -6,7 +6,7 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/Shravan55555/android_kernel_xiaomi_msm8953_49.git'
+        default: 'https://github.com/user-why-red/android_kernel_realme_sdm710_49.git'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
